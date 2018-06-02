@@ -3,6 +3,11 @@
     background: black;
 }
 
+.custom-header-with-search h1 {
+    text-align: center;
+    color: white;
+}
+
 .custom-header-with-search input {
     margin: auto;
     display: block;

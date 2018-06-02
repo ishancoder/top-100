@@ -19,6 +19,7 @@ class Search extends Component {
     render() {
         return(
             <div className="custom-header-with-search">
+                <h1>Top 100 on <i className="fab fa-apple"></i> iTunes.</h1>
                 <input placeholder={this.props.placeholder} type="text" value={this.state.query} onChange={this.handleChange} />
             </div>
         );

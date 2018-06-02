@@ -21,7 +21,7 @@ class AlbumCard extends Component {
                     <span title={this.props.album["im:artist"].label}><strong>ARTIST :</strong> {this.props.album["im:artist"].label} </span>
                     <span><strong>PRICE :</strong> {this.props.album["im:price"].label}</span>
                     <br/>
-                    <span className="link"><a href={this.props.album.link.attributes.href}>Get it on <i className="fab fa-apple"></i> iTunes</a></span>
+                    <span className="link"><a target="_blank" href={this.props.album.link.attributes.href}>Get it on <i className="fab fa-apple"></i> iTunes</a></span>
                     <span>{this.props.album["im:releaseDate"].attributes.label}</span>
                 </div>
             </div>
