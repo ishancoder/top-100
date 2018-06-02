@@ -1,0 +1,70 @@
+.card-container {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 100ms ease-in;
+}
+
+.card-container:hover {
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.card-container .overlay {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    background: black;
+    z-index: 1;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+
+.card-container .img-box {
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1em;
+}
+
+.card-container .img-box span{
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+.card-container .card-content {
+    padding: 1em;
+    border: 1px solid black;
+    background: white;
+}
+
+.card-container .card-content span {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-container .card-content .link {
+    display: inline-block;
+    font-size: 0.8em;
+    width: 60%;
+}
+
+.card-container .card-content span:last-child {
+    text-align: right;
+    font-size: 0.8em;
+    font-weight: bold;
+    display: inline-block;
+    width: 40%;
+}

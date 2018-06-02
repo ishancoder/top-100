@@ -1,0 +1,16 @@
+.custom-header-with-search {
+    padding: 2em;
+    background: black;
+}
+
+.custom-header-with-search input {
+    margin: auto;
+    display: block;
+    font-size: 1.2em;
+    border: 1px solid gray;
+    border-radius: 10em;
+    padding: 0.8em;
+    outline: none;
+    width: 80%;
+    max-width: 600px;
+}
